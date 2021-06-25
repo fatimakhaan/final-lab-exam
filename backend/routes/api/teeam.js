@@ -1,8 +1,8 @@
 const express = require("express");
 let router = express.Router();
 const auth = require("../../middleWares/auth");
-const admin = require("../../middleWares/admin");
-const PSL = require("../../models/pslTeams")
+const admin = require("../../middleWares/ad");
+const PSL = require("../../models/teaam")
 //get products
 router.get("/",async (req, res) => {
   console.log(req.user);
